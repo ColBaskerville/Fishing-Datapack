@@ -1,0 +1,108 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§oContains cool stuff, but\",\"§f§onothing too impressive...\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"Quick! Open it! it might\",\"§f§ocontain something cool.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"I wonder, who left this\",\"§f§oBox behind... Now it's mine.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"That doesn't seem\",\"§f§olike a fish to me...\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"I think a merchant ship foun-\",\"§f§odered anywhere in these waters.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"It isn't secured... It's content\",\"§f§omight not be to precious.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"Now fishing might be fun...\",\"§f§oStrange.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"A skull is carved into\",\"§f§othe wood... Never mind.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden\"},display:{Name:\"§6Wooden Crate§r\",Lore:[\"§f§o\\\"Oh, it's heavy! Hopefully\",\"§f§oit means something good.\\\"\"]}}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:leather_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[{id:8,lvl:3}],HideFlags:36,Unbreakable:1,display:{color:6911,Name:\"§1Sailfish Boots\",Lore:[\"§f§oA prototype of the hermes boots...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": 0.1,
+										"max": 0.5
+									},
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 2,
+									"operation": "addition",
+									"slot": "feet"
+								}
+
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[{id:5,lvl:10},{id:6,lvl:1}],HideFlags:36,Unbreakable:1,display:{color:6911,Name:\"§1Gills Mask\",Lore:[\"§f§oThis is, what a diver needs.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 2,
+									"operation": "addition",
+									"slot": "head"
+								}
+
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[{id:7,lvl:5}],HideFlags:36,Unbreakable:1,display:{color:6911,Name:\"§1Guardian's Armor Plate\",Lore:[\"§f§oTough and spiky...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.knockbackResistance",
+									"name": "Knockback",
+									"amount": 0.5,
+									"operation": "multiply_base",
+									"slot": "chest"
+								}
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:leather_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[{id:7,lvl:5}],HideFlags:36,Unbreakable:1,display:{color:6911,Name:\"§1Fishbone Greaves\",Lore:[\"§f§oTough and spiky...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "legs"
+								},
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Health",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "legs"
+								}
+							]
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

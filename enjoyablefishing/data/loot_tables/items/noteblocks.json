@@ -1,0 +1,23 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+				"min": 1,
+				"max": 1
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Noteblock Box\",Lore:[\"§f§oContains a lot of Noteblocks,\",\"§f§othat are already tuned!\"]},BlockEntityTag:{Items:[{Slot:0,id:noteblock,Count:32,tag:{display:{Name:\"§2F#\"},BlockEntityTag:{note:0}}},{Slot:1,id:noteblock,Count:32,tag:{display:{Name:\"§2G\"},BlockEntityTag:{note:1}}},{Slot:2,id:noteblock,Count:32,tag:{display:{Name:\"§2G#\"},BlockEntityTag:{note:2}}},{Slot:3,id:noteblock,Count:32,tag:{display:{Name:\"§2A\"},BlockEntityTag:{note:3}}},{Slot:4,id:noteblock,Count:32,tag:{display:{Name:\"§2A#\"},BlockEntityTag:{note:4}}},{Slot:5,id:noteblock,Count:32,tag:{display:{Name:\"§2H\"},BlockEntityTag:{note:5}}},{Slot:6,id:noteblock,Count:32,tag:{display:{Name:\"§2C\"},BlockEntityTag:{note:6}}},{Slot:7,id:noteblock,Count:32,tag:{display:{Name:\"§2C#\"},BlockEntityTag:{note:7}}},{Slot:8,id:noteblock,Count:32,tag:{display:{Name:\"§2D\"},BlockEntityTag:{note:8}}},{Slot:9,id:noteblock,Count:32,tag:{display:{Name:\"§2D#\"},BlockEntityTag:{note:9}}},{Slot:10,id:noteblock,Count:32,tag:{display:{Name:\"§2E\"},BlockEntityTag:{note:10}}},{Slot:11,id:noteblock,Count:32,tag:{display:{Name:\"§2F\"},BlockEntityTag:{note:11}}},{Slot:12,id:noteblock,Count:32,tag:{display:{Name:\"§1F#\"},BlockEntityTag:{note:12}}},{Slot:13,id:noteblock,Count:32,tag:{display:{Name:\"§1G\"},BlockEntityTag:{note:13}}},{Slot:14,id:noteblock,Count:32,tag:{display:{Name:\"§1G#\"},BlockEntityTag:{note:14}}},{Slot:15,id:noteblock,Count:32,tag:{display:{Name:\"§1A\"},BlockEntityTag:{note:15}}},{Slot:16,id:noteblock,Count:32,tag:{display:{Name:\"§1A#\"},BlockEntityTag:{note:16}}},{Slot:17,id:noteblock,Count:32,tag:{display:{Name:\"§1H\"},BlockEntityTag:{note:17}}},{Slot:18,id:noteblock,Count:32,tag:{display:{Name:\"§1C\"},BlockEntityTag:{note:18}}},{Slot:19,id:noteblock,Count:32,tag:{display:{Name:\"§1C#\"},BlockEntityTag:{note:19}}},{Slot:20,id:noteblock,Count:32,tag:{display:{Name:\"§1D\"},BlockEntityTag:{note:20}}},{Slot:21,id:noteblock,Count:32,tag:{display:{Name:\"§1D#\"},BlockEntityTag:{note:21}}},{Slot:22,id:noteblock,Count:32,tag:{display:{Name:\"§1E\"},BlockEntityTag:{note:22}}},{Slot:23,id:noteblock,Count:32,tag:{display:{Name:\"§1F\"},BlockEntityTag:{note:23}}},{Slot:24,id:noteblock,Count:32,tag:{display:{Name:\"§5F#\"},BlockEntityTag:{note:24}}}]}}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

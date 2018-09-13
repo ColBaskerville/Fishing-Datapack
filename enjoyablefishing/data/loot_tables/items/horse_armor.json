@@ -1,0 +1,53 @@
+﻿{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_horse_armor",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§8Steel Horse Armor\",Lore:[\"§f§oThis is a must for warhorses.\"]}}"
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:golden_horse_armor",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§6Noble Horse Armor\",Lore:[\"§f§oCombined with a white\",\"§f§ohorse, everyone will\",\"§f§othink you're a king.\"]}}"
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:diamond_horse_armor",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§3Precious Horse Armor\",Lore:[\"§f§oBuying such an armor insted\",\"§f§oof finding it in a crate would\",\"§f§ohave cost a fortune...\"]}}"
+						}
+					],
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "minecraft:spawn_egg",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{EntityTag:{id:\"EntityHorse\",Age:0,Health:60,Items:[{Slot:2,id:hay_block,Count:64}],ActiveEffects:[{Id:11,Amplifier:2,Duration:2000000,ShowParticles:0b}],CustomName:\"§6War Horse§r\",CustomNameVisible:1,Type:0,SaddleItem:{id:saddle,Count:1,tag:{display:{Name:\"§6Leather Saddle\",Lore:[\"§f§oThe right saddle to suit a\",\"§f§owar horse like this.\"]}}},Variant:0,ArmorItem:{id:diamond_horse_armor,Count:1,tag:{display:{Name:\"§3Precious Horse Armor\",Lore:[\"§f§oBuying such an armor insted\",\"§f§oof finding it in a crate would\",\"§f§ohave cost a fortune...\"]}}},Tame:1,Attributes:[{Name:generic.maxHealth,Base:60},{Name:horse.jumpStrength,Base:1}]},display:{Name:\"§6Summon War Horse\",Lore:[\"§f§oYour enemys will\",\"§f§ofear this Horse...\"]}}"
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

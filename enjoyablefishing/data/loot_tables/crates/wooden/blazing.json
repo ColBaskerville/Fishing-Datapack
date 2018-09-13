@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": {
+				"min": 2,
+				"max": 4
+			},
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:fire_ench",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:fire_set",
+                    "weight": 1
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/fire",
+                    "weight": 1
+                }
+			]
+		}
+    ]
+}

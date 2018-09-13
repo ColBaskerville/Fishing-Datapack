@@ -1,0 +1,39 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "minecraft:gameplay/fishing/junk",
+					"weight": 20,
+					"quality": -4
+				},
+				{
+					"type": "loot_table",
+					"name": "minecraft:gameplay/fishing/treasure",
+					"weight": 10,
+					"quality": 4
+				},
+				{
+					"type": "loot_table",
+					"name": "minecraft:gameplay/fishing/wooden_crate",
+					"weight": 20,
+					"quality": 2
+				},
+				{
+					"type": "loot_table",
+					"name": "minecraft:gameplay/fishing/wooden_crate_locked",
+					"weight": 10,
+					"quality": 3
+				},
+				{
+					"type": "loot_table",
+					"name": "minecraft:gameplay/fishing/fish",
+					"weight": 100,
+					"quality": -2
+				}
+			]
+		}
+	]
+}

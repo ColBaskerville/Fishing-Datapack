@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": {
+				"min": 4,
+				"max": 6
+			},
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dwarf_tnt",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:pickaxes",
+                    "weight": 1
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/dwarf",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.5
+				}
+			],
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dwarf_merchant",
+                    "weight": 1
+                }
+			]
+		}
+    ]
+}

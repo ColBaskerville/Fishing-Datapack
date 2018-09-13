@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/ore",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/wood",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/ingot",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/fish",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/meat",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/block",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

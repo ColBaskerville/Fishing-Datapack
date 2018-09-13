@@ -1,0 +1,48 @@
+{
+    "pools": [
+        {
+            "rolls": {
+				"min": 1,
+				"max": 4
+			},
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:fish_set",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:potion",
+                    "weight": 30
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dull",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"rolls": 1,
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.5
+				}
+			],
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:key",
+                    "weight": 1
+                }
+			]
+		}
+    ]
+}

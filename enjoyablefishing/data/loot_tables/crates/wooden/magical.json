@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": {
+				"min": 2,
+				"max": 5
+			},
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:brewing",
+                    "weight": 12
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:dull/magic",
+                    "weight": 1
+                }
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+                {
+                    "type": "loot_table",
+                    "name": "items:ench_stuff",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "items:gem",
+                    "weight": 1
+                }
+			]
+		}
+    ]
+}

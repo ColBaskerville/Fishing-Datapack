@@ -1,0 +1,143 @@
+﻿{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[],display:{Name:\"§3Magical Gem\",Lore:[\"§f§oYou might lose youself in\",\"§f§oit's hypnotic reflections.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.attackDamage",
+									"name": "Damage",
+									"amount": {
+										"min": 0.2,
+										"max": 0.4
+									},
+									"operation": "multiply_base",
+									"slot": "offhand"
+								}
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[],display:{Name:\"§aMagical Gem\",Lore:[\"§f§oIt's rumored, that some citizens\",\"§f§oare addicted to these...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": 0.1,
+										"max": 0.3
+									},
+									"operation": "multiply_total",
+									"slot": "offhand"
+								}
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:quartz",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[],display:{Name:\"§fMagical Gem\",Lore:[\"§f§oA lot of miners burned to\",\"§f§otheir death trying to find\",\"§f§oa treasure like this.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Speed",
+									"amount": {
+										"min": 2,
+										"max": 6
+									},
+									"operation": "addition",
+									"slot": "offhand"
+								}
+							]
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dye",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[],display:{Name:\"§1Magical Gem\",Lore:[\"§f§oThis is the purest blue mineral\",\"§f§oyou'll ever catch sight of.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.attackSpeed",
+									"name": "ATKSpeed",
+									"amount": {
+										"min": 0.2,
+										"max": 0.4
+									},
+									"operation": "multiply_base",
+									"slot": "offhand"
+								}
+							]
+						},
+						{
+							"function": "set_data",
+							"data": 4
+						}
+					],
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "minecraft:prismarine_crystals",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[],display:{Name:\"§bMagical Gem\",Lore:[\"§f§oSome ancient merman\",\"§f§oare rumored to protect\",\"§f§owhole citys with the\",\"§f§opower of gems like this!\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": {
+										"min": 3,
+										"max": 10
+									},
+									"operation": "addition",
+									"slot": "offhand"
+								}
+							]
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

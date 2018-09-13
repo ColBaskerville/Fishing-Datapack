@@ -1,0 +1,20 @@
+﻿{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:command_block",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Hopper Clock\",Lore:[\"§f§o(north)\"]},BlockEntityTag:{auto:1,Command:summon FallingSand ~ ~1 ~ {Block:stone,Time:1,Passengers:[{id:FallingSand,Block:redstone_block,Time:1,Passengers:[{id:FallingSand,Block:activator_rail,Time:1,Passengers:[{id:MinecartCommandBlock,Command:gamerule commandBlockOutput false},{id:MinecartCommandBlock,Command:setblock ~ ~-3 ~ hopper 3 replace {Items:[]}},{id:MinecartCommandBlock,Command:setblock ~ ~-3 ~1 hopper 2 keep {Items:[,{Slot:0,id:minecraft:redstone,Count:1,Damage:0}]}},{id:MinecartCommandBlock,Command:setblock ~ ~-3 ~-1 unpowered_comparator 0 keep},{id:MinecartCommandBlock,Command:kill @e[type=ArmorStand,name=STRCMD]},{id:MinecartCommandBlock,Command:setblock ~ ~ ~1 command_block 0 replace {Command:fill ~ ~-2 ~-1 ~ ~ ~ air}},{id:MinecartCommandBlock,Command:setblock ~ ~-1 ~1 redstone_block},{id:MinecartCommandBlock,Command:kill @e[type=MinecartCommandBlock,r=1]}]}]}]}}}"
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

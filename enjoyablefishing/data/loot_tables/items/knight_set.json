@@ -1,0 +1,307 @@
+﻿{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:iron_helmet",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§8Knight's Helmet\",Lore:[\"§f§oYou can't see a lot through\",\"§f§oit's ventail, but it protects\",\"§f§olike nothing else...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": -0.15,
+										"max": -0.05
+									},
+									"operation": "multiply_base",
+									"slot": "head"
+								},
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 3,
+									"operation": "addition",
+									"slot": "head"
+								},
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Health",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "head"
+								},
+								{
+									"attribute": "generic.knockbackResistance",
+									"name": "KnockbackRes",
+									"amount": 0.25,
+									"operation": "addition",
+									"slot": "head"
+								}
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:protection"
+							]
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_chestplate",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§8Knight's Plate Armor\",Lore:[\"§f§oManufactured out of\",\"§f§othick steel plates.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": -0.2,
+										"max": -0.1
+									},
+									"operation": "multiply_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 8,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Health",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "generic.knockbackResistance",
+									"name": "KnockbackRes",
+									"amount": 0.25,
+									"operation": "addition",
+									"slot": "chest"
+								}
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:protection"
+							]
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_leggings",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§8Knight's Steel Greaves\",Lore:[\"§f§oThe polished steel\",\"§f§oreflects the sunlight.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": -0.2,
+										"max": -0.1
+									},
+									"operation": "multiply_base",
+									"slot": "legs"
+								},
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "legs"
+								},
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Health",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "legs"
+								},
+								{
+									"attribute": "generic.knockbackResistance",
+									"name": "KnockbackRes",
+									"amount": 0.25,
+									"operation": "addition",
+									"slot": "legs"
+								}
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:protection"
+							]
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_boots",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§8Knight's Sabaton\",Lore:[\"§f§oYou better find a horse than\",\"§f§owalking around... These Steel\",\"§f§oBoots are damn heavy.\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.movementSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": -0.15,
+										"max": -0.05
+									},
+									"operation": "multiply_base",
+									"slot": "feet"
+								},
+								{
+									"attribute": "generic.armor",
+									"name": "Armor",
+									"amount": 3,
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"attribute": "generic.maxHealth",
+									"name": "Health",
+									"amount": 4,
+									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"attribute": "generic.knockbackResistance",
+									"name": "KnockbackRes",
+									"amount": 0.25,
+									"operation": "addition",
+									"slot": "feet"
+								}
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:protection"
+							]
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§8Knight's Steel Sword\",Lore:[\"§f§oThis cold and sharp steel is\",\"§f§othe last thing, I want to see\",\"§f§oin my enemys hands...\"]}}"
+						},
+						{
+							"function": "set_attributes",
+							"modifiers":[
+								{
+									"attribute": "generic.attackSpeed",
+									"name": "Speed",
+									"amount": {
+										"min": -0.3,
+										"max": -0.2
+									},
+									"operation": "multiply_base",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "generic.attackDamage",
+									"name": "Damage",
+									"amount": {
+										"min": 7,
+										"max": 10
+									},
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:sharpness"
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:knockback",
+								"minecraft:fire_aspect"
+							]
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:smite",
+								"minecraft:bane_of_arthropods",
+								"minecraft:looting"
+							],
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					],
+					"weight": 3
+				},
+				{
+					"type": "item",
+					"name": "minecraft:bow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{ench:[{id:48,lvl:6}],HideFlags:36,Unbreakable:1,display:{Name:\"§6Medival Longbow\",Lore:[\"§f§oBows like this have an immese power.\"]}}"
+						},
+						{
+							"function": "enchant_randomly",
+							"enchantments": [
+								"minecraft:punch"
+							],
+							"conditions": [
+								{
+									"condition": "random_chance",
+									"chance": 0.5
+								}
+							]
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:spawn_egg",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§8Dwarf Merchant\",Lore:[\"§f§o\\\"I like stone.\\\"\"]},EntityTag:{id:\"Villager\",CustomName:\"§8Dwarf Merchant\",CustomNameVisible:1,Profession:1,CareerLevel:10,Offers:{Recipes:[ {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:cobblestone,Count:8},buyB:{id:cobblestone,Count:8},sell:{id:cobblestone,Count:1}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8},buyB:{id:stone,Count:8},sell:{id:cobblestone,Count:4}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:coal,Count:64},buyB:{id:coal,Count:64},sell:{id:diamond,Count:1}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:1},sell:{id:stone,Count:4,Damage:3}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:1},sell:{id:stone,Count:4,Damage:5}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:3},sell:{id:stone,Count:4,Damage:1}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:3},sell:{id:stone,Count:4,Damage:5}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:5},sell:{id:stone,Count:4,Damage:1}}, {rewardExp:1b,maxUses:2147483647,uses:0,buy:{id:stone,Count:8,Damage:5},sell:{id:stone,Count:4,Damage:3}}]}}}"
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}

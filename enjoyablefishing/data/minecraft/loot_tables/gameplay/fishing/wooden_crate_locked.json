@@ -1,0 +1,141 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/bone\",Lock:\"§7Bone Key\"},display:{Name:\"§7Locked Crate§r\",Lore:[\"§f§o\\\"It sounds, as if\",\"§f§othere were bones inside...\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/bone\",Lock:\"§7Bone Key\"},display:{Name:\"§7Locked Crate§r\",Lore:[\"§f§o\\\"Oh a crate! Yay!\",\"§f§oUnfortunately it's looked.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/blazing\",Lock:\"§6Blazing Key\"},display:{Name:\"§6Locked Crate§r\",Lore:[\"§f§o\\\"Ouch! It's hot, even though\",\"§f§oI just took it out of the water.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/blazing\",Lock:\"§6Blazing Key\"},display:{Name:\"§6Locked Crate§r\",Lore:[\"§f§o\\\"Why on earth is \",\"§f§othis crate steaming?!\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/usual\",Lock:\"§2Usual Key\"},display:{Name:\"§2Locked Crate§r\",Lore:[\"§f§o\\\"I think, this crate isn't\",\"§f§olocked without a reason...\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/usual\",Lock:\"§2Usual Key\"},display:{Name:\"§2Locked Crate§r\",Lore:[\"§f§o\\\"Hm, this really is too \",\"§f§osturdy to brake it.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/glowing\",Lock:\"§4Glowing Key\"},display:{Name:\"§4Locked Crate§r\",Lore:[\"§f§o\\\"What a strange\",\"§f§ored glow! Weird.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/glowing\",Lock:\"§4Glowing Key\"},display:{Name:\"§4Locked Crate§r\",Lore:[\"§f§o\\\"It somehow reminds\",\"§f§ome of redstone...\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/magical\",Lock:\"§5Magical Key\"},display:{Name:\"§5Locked Crate§r\",Lore:[\"§f§o\\\"I don't know what\",\"§f§oto think about this...\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/magical\",Lock:\"§5Magical Key\"},display:{Name:\"§5Locked Crate§r\",Lore:[\"§f§o\\\"I feels magical.\",\"§f§oKind of.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/dwarf\",Lock:\"§8Dwarf Key\"},display:{Name:\"§8Locked Crate§r\",Lore:[\"§f§o\\\"This is the smalles\",\"§f§ocrate, I've ever seen.\\\"\"]}}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:trapped_chest",
+                    "weight": 1,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{BlockEntityTag:{LootTable:\"crates:wooden/dwarf\",Lock:\"§8Dwarf Key\"},display:{Name:\"§8Locked Crate§r\",Lore:[\"§f§o\\\"It's a chiseled crate.\",\"§f§oAnd it's really heavy!\\\"\"]}}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

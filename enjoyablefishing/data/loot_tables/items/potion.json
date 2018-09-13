@@ -1,0 +1,111 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+				"min": 0,
+				"max": 2
+			},
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 20,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Rum\",Lore:[\"§f§o\\\"After a few weeks at sea,\",\"§f§oRum is more precious than Gold.\\\" \"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:160,ShowParticles:0b},{Id:11,Amplifier:1,Duration:600,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 15,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Bloody Mary\",Lore:[\"§f§o\\\"Mary will get you back on your\",\"§f§ofeet after a really bad day.\\\" \"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:160,ShowParticles:0b},{Id:10,Amplifier:4,Duration:60,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 25,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Grog\",Lore:[\"§f§o\\\"The elixir of life for all seafarers.\",\"§f§oNot as strong as rum,\",\"§f§oso not as effective.\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:160,ShowParticles:0b},{Id:11,Amplifier:0,Duration:600,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Traveler's Liquor\",Lore:[\"§f§o\\\"Through valleys, over mountains.\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:1,Amplifier:0,Duration:12000,ShowParticles:0b},{Id:8,Amplifier:1,Duration:12000,ShowParticles:0b},{Id:9,Amplifier:0,Duration:600}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 18,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Cheap Liquor\",Lore:[\"§f§o\\\"Cheap Liquor, but it does the job.\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:160,ShowParticles:0b},{Id:10,Amplifier:3,Duration:60,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 4,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Death Liquor\",Lore:[\"§f§o\\\"I think, this is\",\"§f§oa bad idea...\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:1,Amplifier:0,Duration:12000,ShowParticles:0b},{Id:9,Amplifier:0,Duration:400,ShowParticles:0b},{Id:15,Amplifier:0,Duration:180,ShowParticles:0b},{Id:16,Amplifier:0,Duration:180,ShowParticles:0b},{Id:20,Amplifier:2,Duration:180,ShowParticles:0b},{Id:21,Amplifier:4,Duration:12000,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 12,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Fighter's Liquor\",Lore:[\"§f§o\\\"Arrr! Beat'em all!\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:5,Amplifier:0,Duration:3600},{Id:9,Amplifier:0,Duration:160,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Shadow Elixir\",Lore:[\"§f§o\\\"The clear red liquid\",\"§f§osmells rotten, somehow.\\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:160,ShowParticles:0b},{Id:14,Amplifier:0,Duration:12000,ShowParticles:0b}]}"
+						}
+					]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"functions":[
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4Tincture of Invincibility\",Lore:[\"§f§o\\\"Obtained from the rarest herbs.\",\"§f§oYour skin will be as firm as steel. \\\"\"]},HideFlags:32,CustomPotionEffects:[{Id:9,Amplifier:0,Duration:200,ShowParticles:0b},{Id:11,Amplifier:4,Duration:200,ShowParticles:0b}]}"
+						}
+					]
+                }
+            ]
+        }
+    ]
+}

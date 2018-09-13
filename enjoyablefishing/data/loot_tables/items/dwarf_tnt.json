@@ -1,0 +1,20 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:spawn_egg",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:36,Unbreakable:1,display:{Name:\"§2Dwarf Tnt\",Lore:[\"§f§oMake sure you use the long\",\"§f§ofuse to get away...\"]},EntityTag:{CustomName:\"§2Dwarf Tnt\",CustomNameVisible:0,id:\"Creeper\",powered:1,ignited:1,ExplosionRadius:20,Fuse:200,Invulnerable:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:200,ShowParticles:0b}]}}"
+						}
+					],
+					"weight": 1
+				}
+			]
+		}
+	]
+}
